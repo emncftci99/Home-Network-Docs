@@ -12,7 +12,7 @@ Current network: iPhone personal hotspot.
 
 ```mermaid
 flowchart LR
-  ISP[(İnternet / mobil operatör)] --- R[iPhone hotspot<br/>NAT + DHCP + DNS + Wi-Fi<br/>172.20.10.x]
+  ISP[(Internet / mobile Operator)] --- R[iPhone hotspot<br/>NAT + DHCP + DNS + Wi-Fi<br/>172.20.10.x]
   R -. Wi-Fi .- M[MacBook<br/>172.20.10.x]
 ```
 
